@@ -7,7 +7,7 @@ const NavComp = () =>{
     return(
         <Navbar bg="light" expand="lg">
   <Navbar.Brand href="#home">
-  <a className="navbar-brand" href="#">
+  <a className="navbar-brand" href="#/brand">
     <img src={Logo} alt="logo" className="image" />
       </a>
 
@@ -22,8 +22,8 @@ const NavComp = () =>{
       <Nav className="nav-link">Login</Nav>
     </Nav>
     <div className="mob-show">
-    <div><a href="#" className="button">Donate Now</a></div>
-      <div><a href="#" className="button">Join Us</a></div>
+    <div><a href="#/donate" className="button">Donate Now</a></div>
+      <div><a href="#/donate" className="button">Join Us</a></div>
     </div>
   </Navbar.Collapse>
 </Navbar>

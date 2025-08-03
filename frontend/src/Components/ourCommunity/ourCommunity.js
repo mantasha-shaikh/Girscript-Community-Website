@@ -1,6 +1,6 @@
 import "./ourCommunity.css";
 import React from 'react';
-const ourCommunity = () => {
+const OurCommunity = () => {
   
     return (
       <div> 
@@ -10,7 +10,7 @@ const ourCommunity = () => {
       <div className="our_community_outerdiv" >
       
       <div className="our_community_div1" >
-       <a href="#" ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm9vJSpYrySadslLo4azrFIS4hJphw6DOsp1gQF0CH4HxyxldPsxlpOcE5wHocA_nScRk&usqp=CAU" >
+       <a href="#/images" ><img src="https://encrypclted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm9vJSpYrySadslLo4azrFIS4hJphw6DOsp1gQF0CH4HxyxldPsxlpOcE5wHocA_nScRk&usqp=CAU" >
       </img>
       </a>
       </div>
@@ -25,4 +25,4 @@ const ourCommunity = () => {
         </div>
     );
   };
-  export default ourCommunity; 
+  export default OurCommunity; 

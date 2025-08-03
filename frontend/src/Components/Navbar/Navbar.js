@@ -1,11 +1,14 @@
 import React from "react"
-import NavComp from "./NavComp.js"
+// import NavComp from "./NavComp.js"
+
+import Logo from "./GS_logo_black(1).png";
+
 
 const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand" href="#/logo">
       <img src={Logo} alt="logo" className="image" />
       </a>
       <button
@@ -28,12 +31,12 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#/link">
               About
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#/evnt">
               Event
             </a>
           </li>
@@ -53,18 +56,18 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#/contact/">
               Contact
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#/login">
               Login
             </a>
           </li>
         </ul>
-        <a href="#" className="button">Donate Now</a>
-        <a href="#" className="button">Join Us</a>
+        <a href="#/donate" className="button">Donate Now</a>
+        <a href="#/join us" className="button">Join Us</a>
       </div>
     </nav>
 

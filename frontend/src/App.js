@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "semantic-ui-css/semantic.min.css";
 import './App.css';
-import React, { PureComponent } from 'react';
+// import React, { PureComponent } from 'react';
 // Pages Import
 
 
@@ -13,7 +13,7 @@ import Home from './Components/Home/Home';
 import About from './Components/Common/About';
 import Eventsection from './Components/EventSection/EventSection';
 import OurPrograms from './Components/OurPrograms/OurPrograms';
-import OurCommunity from './Components/OurCommunity/OurCommunity';
+import OurCommunity from './Components/OurCommunity/ourCommunity';
 import OurImpact from './Components/OurImpact/OurImpact';
 
 

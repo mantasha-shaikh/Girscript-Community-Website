@@ -1,6 +1,6 @@
 import React from 'react';
 import Mission from "../Components/Mission/Mission";
-import Impact from "../Components/ourImpact/ourImpact"
+import Impact from "../Components/OurImpact/OurImpact"
 import Community from "../Components/ourCommunity/ourCommunity"
 import Testimonial from "../Components/Testimonial/Testimonial"
 import About from "../Components/Common/About"
